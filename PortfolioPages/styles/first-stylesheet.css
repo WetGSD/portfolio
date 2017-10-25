@@ -2,3 +2,55 @@
 {
     background-color: aqua;
 }
+
+p {color: blue}
+
+pre {color: blueviolet;
+     padding: 1em
+}
+
+.asidestyle {font-style: italic}
+
+.asidestyle2 {font-style: italic;
+              font-weight: bold
+}
+
+.asidestyle3 { font-style: italic;
+               color:purple
+}
+
+blockquote {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size:large;
+            color: seagreen
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: firebrick;
+}
+
+
+footer {
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+}
+
+nav {
+    border-width: 2px;
+    border-style: inset;
+    border-color: blue;
+}
+
+.dogpage {font-size:larger;
+          color: gold
+}
+
+
+a:visited {
+    text-decoration: dashed;
+}
