@@ -29,6 +29,9 @@ article img {
     height: 500px;
 }
 
+.nav-font-20pt {
+    font-size: 20pt;
+}
 
 .side-nav-container ul {
     margin-top: 5px;
@@ -52,3 +55,17 @@ footer {
 }
 
 
+div.row {
+    border-bottom: 1px;
+    border-style: solid;
+}
+
+
+.tgr-show-border {
+    border: 1px solid dotted;
+    color: aqua;
+}
+
+.container img {
+    float: right;
+}
